@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GourmeTech - Accueil</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">GourmeTech</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="favoris.html">Favoris</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggle">Changer de thème</button>
+    </header>
+
+    <main>
+        <section class="search-filter">
+            <input type="text" id="search" placeholder="Rechercher une recette...">
+            <select id="categoryFilter">
+                <option value="">Toutes les catégories</option>
+                <option value="entrée">Entrée</option>
+                <option value="plat">Plat</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </section>
+
+        <section class="recipe-grid" id="recipeGrid">
+            <!-- Les recettes seront affichées ici dynamiquement -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GourmeTech. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
